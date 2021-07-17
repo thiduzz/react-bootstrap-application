@@ -1,8 +1,14 @@
 .form-input{
 
-    @apply flex flex-col justify-start;
+    @apply flex flex-col justify-start mb-2;
+    label{
+        @apply text-xs mb-1
+    }
+    input[type=text], input[type=number]{
+        @apply p-1 px-2 rounded focus:outline-none  border-gray-300 border;
 
-    input{
-
+        &:focus{
+            @apply border-blue-300
+        }
     }
 }

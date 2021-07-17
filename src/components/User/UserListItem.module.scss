@@ -1,10 +1,9 @@
-ul{
-  @apply list-none m-5 max-w-lg w-full;
-}
-
 .user-list-item{
-  @apply bg-white rounded-lg shadow p-4 text-center m-2 w-full cursor-pointer;
+  @apply bg-white rounded-lg shadow p-4 text-left m-2 w-full cursor-pointer flex flex-row justify-between items-center;
   &:hover{
     @apply bg-blue-300 opacity-70 text-white
+  }
+  .age-label{
+    @apply text-xs
   }
 }
