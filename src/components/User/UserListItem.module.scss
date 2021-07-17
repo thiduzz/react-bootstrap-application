@@ -1,0 +1,10 @@
+ul{
+  @apply list-none m-5 max-w-lg w-full;
+}
+
+.user-list-item{
+  @apply bg-white rounded-lg shadow p-4 text-center m-2 w-full cursor-pointer;
+  &:hover{
+    @apply bg-blue-300 opacity-70 text-white
+  }
+}
